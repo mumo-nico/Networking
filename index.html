@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <title>Geoportal</title>
+</head>
+
+<body>
+  <!-- Header banner -->
+    <div class="header">
+        <fieldset class="field-container">
+            <input type="text" placeholder="Search..." class="field" />
+            <div class="icons-container">
+              <div class="icon-search"></div>
+              <div class="icon-close">
+                <div class="x-up"></div>
+                <div class="x-down"></div>
+              </div>
+            </div>
+          </fieldset>
+    </div>
+    <!-- Navigation Bar -->
+      <header id="nav-menu" aria-label="navigation bar">
+        <div class="container">
+          <div class="nav-start">
+            <div class="spanlogo">
+            <a class="logo flex" href="/">
+              <img
+              src="/images/drsrs.jpg"
+              width="70",
+              height="70",
+              alt="Inc Logo"
+                
+              /> 
+             
+            </a>
+            <span class="span-logo">Directorate of Resource Surveys and Remote Sensing</span>
+          </div>
+            <nav class="menu">
+              <ul class="menu-bar">
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    data-dropdown="dropdown1"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="browse"
+                  >
+                    DATA
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown1" class="dropdown">
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title">LAYERS</span>
+                      </li>
+                      <li>
+                        <span class="dropdown-link-title">DOCUMENTS</span>
+                      </li>
+                      <li>
+                        <span class="dropdown-link-title">REMOTE SERVICES</span>
+                      </li>
+                    
+                  </div>
+                </li>
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    data-dropdown="dropdown2"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="discover"
+                  >
+                    MAPS
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown2" class="dropdown">
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title">EXPLORE MAPS</span>
+                      </li>
+                      <li>
+                        <span class="dropdown-link-title">TERRIA MAPS</span>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </li>
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="discover"
+                  >
+                    APPS
+                  </button></li>
+                <li>
+                  <button
+                    class="nav-link dropdown-btn"
+                    data-dropdown="dropdown3"
+                    aria-haspopup="true"
+                    aria-expanded="false"
+                    aria-label="discover"
+                  >
+                    ABOUT
+                    <i class="bx bx-chevron-down" aria-hidden="true"></i>
+                  </button>
+                  <div id="dropdown3" class="dropdown">
+                    <ul role="menu">
+                      <li>
+                        <span class="dropdown-link-title">PEOPLE</span>
+                      </li>
+                      <li>
+                        <span class="dropdown-link-title">GROUPS</span>
+                      </li>
+                      <li>
+                        <span class="dropdown-link-title">GROUP CATEGORIES</span>
+                      </li>
+                    </ul>
+                    
+                  </div>
+                </li>
+              </ul>
+            </nav>
+            <div class="nav-end">
+              <div class="right-container">
+                <button class="btn btn-primary" style="color: white;">REGISTER</button>
+                <button class="btn btn-primary" style="color: white;">LOGIN</button>
+              </div>
+              </div>
+              <button
+                id="hamburger"
+                aria-label="hamburger"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                <i class="bx bx-menu" aria-hidden="true"></i>
+              </button>
+            </div>
+          </div>
+         
+        </div>
+      </header>
+
+      <!-- <label class="logo">DRSRS</label>
+      <ul class="links">
+        <li>
+          <a class="active" href="#">DATA</a>
+          <i class="bx bxs-chevron-down data-arrow arrow"></i>
+          <ul class="data-sub-menu sub-menu">
+            <li><a href="#">LAYERS</a></li>
+            <li><a href="#">DOCUMENTS</a></li>
+            <li><a href="#">REMOTE SERVICES</a></li>
+          </ul>
+        </li>
+        <li><a href="#">MAPS</a>
+          <i class="bx bxs-chevron-down maps-arrow arrow"></i>
+          <ul class="maps-sub-menu sub-menu">
+            <li><a href="#">EXPLORE MAPS</a></li>
+            <li><a href="#">TERRIA MAP</a></li>
+          </ul>
+        </li>
+        <li><a href="#">APPS</a></li>
+        <li><a href="#">ABOUT</a>
+          <i class="bx bxs-chevron-down about-arrow arrow"></i>
+          <ul class="about-sub-menu sub-menu">
+            <li><a href="#">PEOPLE</a></li>
+            <li><a href="#">GROUPS</a></li>
+            <li><a href="#">GROUP CATEGORIES</a></li>
+          </ul>
+        </li>
+      </ul> -->
+
+
+  <!-- Body -->
+<div class="grid" style="margin-left: 100px;">
+  <div class="grid-item">
+    <div class="card">
+      <img class="card-img" src="/images/image1.jpg" alt="natural" />
+        <div class="card-content">
+          
+            <p class="card-text">Identifying and mapping natural resurces</p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+        </div>
+      
+    </div>
+  </div>
+
+  <div class="grid-item">
+    <div class="card">
+      <img class="card-img" src="/images/image2.jpg" alt="land"/>
+        <div class="card-content">
+          <!-- <h1 class="card-header">Land Use</h1> -->
+            <p class="card-text">Monitoring changes in land use and cover</p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+        </div>
+    
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="card">
+      <img class="card-img" src="/images/image3.jpg" alt="ecosystems"/>
+        <div class="card-content">
+          <!-- <h1 class="card-header">Ecosystems</h1> -->
+            <p class="card-text">Assessing the health of ecosystems</p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+        </div>
+
+    </div>
+  </div>
+  <div class="grid-item">
+    <div class="card">
+      <img class="card-img" src="/images/image4.jpg" alt="environment"/>
+        <div class="card-content">
+          <!-- <h1 class="card-header">Environmental Risks</h1> -->
+            <p class="card-text">Identifying environmental risks and hazards</p>
+            <button class="card-btn">Visit <span>&rarr;</span></button>
+        </div>
+      
+    </div>
+  </div>
+</div>
+  <script src="script.js"></script>
+</body>
+</html>
